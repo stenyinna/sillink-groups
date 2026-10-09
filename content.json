@@ -1,0 +1,29 @@
+{
+  "brand":"Sillink Groupd",
+  "eyebrow":"Diversified Conglomerate",
+  "heroTitle":"Linking Industries.\\nPowering Progress.",
+  "heroText":"Sillink Groupd is a multi-sector enterprise spanning ten industries — from telecommunications and energy to logistics, real estate and manufacturing — connected by a single link to progress.",
+  "heroPrimary":"Explore our businesses",
+  "heroSecondary":"Get in touch",
+  "aboutTitle":"One group. Ten industries. A single link to progress.",
+  "aboutText":"Sillink Groupd is a diversified conglomerate established to carry on business across telecommunications, energy, transport, real estate, media, contracting, manufacturing, equipment, financial services and ancillary activities — connecting the pillars of a modern economy under one trusted name.",
+  "email":"inspireiqglobal@gmail.com",
+  "phone":"+234 000 000 0000",
+  "footerText":"Sillink Groupd is a diversified conglomerate linking ten industries — from telecommunications and energy to logistics, real estate and manufacturing — under one vision.",
+  "copyright":"© 2026 Sillink Groupd. All rights reserved.",
+  "tagline":"Linking Industries. Powering Progress.",
+  "theme":{"ink":"#10202b","accent":"#16a085","gold":"#d8a84e","cream":"#f5f4ef","paper":"#fbfaf6"},
+  "businesses":[
+    ["01","Telecommunications, ICT & Network","Telecommunications, communication services, ICT and network solutions — sale, supply, installation and maintenance of telecom equipment, cables and related technologies."],
+    ["02","Energy, Power & Renewable Energy","Solar generation, renewable energy systems, and the design, installation and management of energy systems, power plants and distribution networks."],
+    ["03","Transport, Logistics & Haulage","Transportation, logistics, haulage and carriage — ownership, operation, leasing and management of motor vehicles and transport equipment."],
+    ["04","Real Estate & Property Services","Acquiring, developing, managing, leasing and selling land, buildings and real estate of every description, with property development and agency services."],
+    ["05","Media, Publishing & Communication","Media operations, publishing, printing and distribution of newspapers, journals, magazines, newsletters and digital publications."],
+    ["06","Contracting, Procurement & Supply","General contracting, procurement, importation, exportation, marketing, sales, distribution and supply of goods, equipment and merchandise."],
+    ["07","Manufacturing & Industrial Services","Manufacturing, processing, packaging and distribution of goods and products of various descriptions, independently or in association with partners."],
+    ["08","Equipment, Machinery & Asset Services","Buying, selling, leasing, hiring and distributing machinery, equipment, vehicles and commercial assets of every description."],
+    ["09","Financial, Investment & Corporate","Raising, borrowing, investing and managing funds, with financial, investment and corporate activities supporting the Group’s objectives."],
+    ["10","Ancillary & Related Services","All other lawful businesses, services and transactions incidental, complementary or conducive to the attainment of the Group’s objects."]
+  ],
+  "why":[["Multi-Sector Expertise","Ten integrated business divisions under one group, spanning telecoms, energy, logistics, real estate and more."],["End-to-End Capability","From infrastructure and equipment to media and financial support — connected solutions across the value chain."],["Trusted Operations","Built on procurement, contracting and corporate governance standards that earn institutional trust."],["Forward-Looking","Renewable energy, ICT and industrial innovation driving sustainable, long-term growth."]]
+}
