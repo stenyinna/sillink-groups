@@ -1,28 +1,15 @@
-SILLINK GROUPD WEBSITE
+SILLINK GROUPD — STATIC VERCEL WEBSITE
 
-FILES
-- index.html: main website
-- styles.css: responsive design/theme
-- app.js: content rendering and contact form
-- content.json: EDITABLE site text, sectors and colors
-- admin.html: browser editor; save locally or download updated content.json
-- assets/logo.svg and favicon.svg
-- api/contact.php: Vercel PHP email endpoint
-- vercel.json: Vercel routing/PHP runtime
+DEPLOY
+1. Extract this ZIP.
+2. Upload the files inside this folder directly to the ROOT of your GitHub repository. Make sure index.html and vercel.json are at the repository root, not nested in another folder.
+3. If you are updating an existing repository, DELETE the old vercel.json and any api/contact.php function files first, then upload these files.
+4. In Vercel, import/redeploy the repository. Choose Framework Preset: Other. Leave Build Command empty. Output Directory: leave empty/root.
 
-VERCEL DEPLOYMENT
-1. Upload the ZIP to Vercel Drop or import the folder/project.
-2. In Vercel Project Settings > Environment Variables add:
-   RESEND_API_KEY = your Resend API key
-   CONTACT_TO_EMAIL = inspireiqglobal@gmail.com
-   CONTACT_FROM_EMAIL = Website <your-verified-domain@example.com>
-3. Redeploy.
+This is a static single-file HTML website. CSS, JavaScript, content, and favicon are embedded in index.html. vercel.json deliberately contains no functions or PHP runtime declarations, so it will not look for api/contact.php.
 
-EMAIL
-The contact form sends to inspireiqglobal@gmail.com through Resend. You must verify the sender domain in Resend and set CONTACT_FROM_EMAIL accordingly. The package intentionally does not contain an API key.
+CONTACT
+The contact form uses a mailto link to inspireiqglobal@gmail.com. It opens the visitor's email app; it does not send silently from the website. For automatic email delivery, connect a form provider or deploy a compatible serverless endpoint separately.
 
 EDITING
-Open /admin.html. Edit text/colors, save locally for your browser, or download content.json and replace the site's content.json, then redeploy. For a true multi-user live CMS, connect a database such as Supabase; Vercel serverless functions do not provide a persistent writable local filesystem.
-
-NOTE
-The design/content is a clean recreation based on the public reference site, not a copy of proprietary source code. Replace any company-specific legal/contact details as needed.
+Edit the content object inside index.html, commit the change to GitHub, and Vercel will redeploy.
