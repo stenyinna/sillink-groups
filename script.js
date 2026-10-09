@@ -49,8 +49,8 @@ byId('contact-form').addEventListener('submit',e=>{
   const form=new FormData(e.currentTarget);
   const subject=encodeURIComponent('Website enquiry from '+form.get('name'));
   const body=encodeURIComponent(`Name: ${form.get('name')}\nEmail: ${form.get('email')}\nCompany: ${form.get('company')||'Not provided'}\n\nMessage:\n${form.get('message')}`);
-  byId('form-note').textContent='Opening your email app… If it does not open, email info@sillinkgroupd.com directly.';
-  window.location.href=`mailto:info@sillinkgroupd.com?subject=${subject}&body=${body}`;
+  byId('form-note').textContent='Opening your email app… If it does not open, email info@sillinkgroup.com directly.';
+  window.location.href=`mailto:info@sillinkgroup.com?subject=${subject}&body=${body}`;
 });
 
 // Persistent light/dark mode toggle in the header.
