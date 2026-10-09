@@ -1,15 +1,24 @@
-SILLINK GROUPD — STATIC VERCEL WEBSITE
+SILLINK GROUP — STATIC WEBSITE
 
-DEPLOY
+DEPLOY ON GITHUB + VERCEL
 1. Extract this ZIP.
-2. Upload the files inside this folder directly to the ROOT of your GitHub repository. Make sure index.html and vercel.json are at the repository root, not nested in another folder.
-3. If you are updating an existing repository, DELETE the old vercel.json and any api/contact.php function files first, then upload these files.
-4. In Vercel, import/redeploy the repository. Choose Framework Preset: Other. Leave Build Command empty. Output Directory: leave empty/root.
+2. Upload index.html and the assets folder into the ROOT of your GitHub repository.
+3. Import the repository into Vercel.
+4. Choose Framework Preset: Other.
+5. Leave Build Command and Output Directory empty; deploy.
 
-This is a static single-file HTML website. CSS, JavaScript, content, and favicon are embedded in index.html. vercel.json deliberately contains no functions or PHP runtime declarations, so it will not look for api/contact.php.
+No PHP, API function, package manager, build step, or server configuration is needed.
 
-CONTACT
-The contact form uses a mailto link to inspireiqglobal@gmail.com. It opens the visitor's email app; it does not send silently from the website. For automatic email delivery, connect a form provider or deploy a compatible serverless endpoint separately.
+FEATURES
+- Uses the supplied Sillink Group logo (assets/sillink-logo.png).
+- Red and white brand palette.
+- Dark/light mode toggle (preference saved in browser).
+- Automatic front-page slideshow covering all ten business sectors, with previous/next controls and dots.
+- Responsive mobile menu and sector cards.
+- Contact links open the visitor's email app addressed to inspireiqglobal@gmail.com.
+
+EMAIL NOTE
+This static site does not send email in the background. Contact links open the visitor's mail application. For automatic website form delivery, connect a hosted form service or email API separately.
 
 EDITING
-Edit the content object inside index.html, commit the change to GitHub, and Vercel will redeploy.
+Open index.html in a text editor. Change visible headings, descriptions, email address and sector entries in the HTML/JavaScript. Replace assets/sillink-logo.png to update the logo.
