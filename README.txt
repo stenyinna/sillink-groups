@@ -1,24 +1,16 @@
 SILLINK GROUP — STATIC WEBSITE
+================================
+Upload index.html, the assets folder, and this README.txt to the ROOT of your GitHub repository.
+Then import the repository into Vercel.
 
-DEPLOY ON GITHUB + VERCEL
-1. Extract this ZIP.
-2. Upload index.html and the assets folder into the ROOT of your GitHub repository.
-3. Import the repository into Vercel.
-4. Choose Framework Preset: Other.
-5. Leave Build Command and Output Directory empty; deploy.
+Vercel settings:
+- Framework Preset: Other
+- Build Command: leave empty
+- Output Directory: leave empty
+- Root Directory: ./
 
-No PHP, API function, package manager, build step, or server configuration is needed.
-
-FEATURES
-- Uses the supplied Sillink Group logo (assets/sillink-logo.png).
-- Red and white brand palette.
-- Dark/light mode toggle (preference saved in browser).
-- Automatic front-page slideshow covering all ten business sectors, with previous/next controls and dots.
-- Responsive mobile menu and sector cards.
-- Contact links open the visitor's email app addressed to inspireiqglobal@gmail.com.
-
-EMAIL NOTE
-This static site does not send email in the background. Contact links open the visitor's mail application. For automatic website form delivery, connect a hosted form service or email API separately.
-
-EDITING
-Open index.html in a text editor. Change visible headings, descriptions, email address and sector entries in the HTML/JavaScript. Replace assets/sillink-logo.png to update the logo.
+IMPORTANT:
+- Keep assets/sillink-logo.png and assets/favicon.png in the assets folder.
+- Do not upload the folder wrapper itself; upload the files inside sillink-exact-rebuild to repository root.
+- This is a static HTML site; no PHP, npm, build command, or vercel.json function configuration is required.
+- The contact link opens the visitor's email application addressed to inspireiqglobal@gmail.com. It does not send email silently from the server.
